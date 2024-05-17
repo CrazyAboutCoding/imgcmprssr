@@ -19,7 +19,7 @@ def compress_image(image_path, k, quality):
 
     return compressed_image, compressed_image_path
 
-compressed_img, compressed_img_path = compress_image('assets/Screenshot 2024-03-16 125033.png', k=128, quality=90)
+compressed_img, compressed_img_path = compress_image('assets/Screenshot 2024-03-16 125033.png', k=256, quality=90)
 
 cv2.imshow('Original Image', cv2.imread('assets/Screenshot 2024-03-16 125033.png'))
 cv2.imshow('Compressed Image', compressed_img)
